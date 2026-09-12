@@ -1,0 +1,10 @@
+Fault Location,Order,Device,Protection Function,Fault Current kA,Operate Time T1 ms,Total Time T2 ms,Role
+Bus5,1,CB3,Ground,12.0,80,120,Primary
+Bus5,2,CB2,Ground,12.0,240,360,Backup
+Bus5,3,CB3,Phase,10.8,3294,4941,Prospective phase backup
+Bus5,4,CB2,Phase,10.5,6473,9710,Prospective upstream phase backup
+Bus4,1,CB2,Ground,55.4,240,360,Primary
+Bus4,2,CB2,Phase,51.0,320,480,Local phase backup
+Bus4,3,Relay1,Phase 51,1.093,3614,3614,Upstream relay backup
+Bus4,4,CB1,Opened by Relay1,,20,3634,Upstream breaker clearing
+
